@@ -14,11 +14,11 @@ nav a {
 }
 
 aside {
-    width: 0 auto ;
-    margin-top: 30px ;
-    border: 1px solid rgb(220, 220, 220, 0.2);
-    padding: 20px;
-    background-color: rgb(70, 130, 180, 0.5) ;
+    width: 20em ;
+    margin-top: 1em ;
+    border: 3px solid rgba(123, 123, 123, 0.2);
+    padding: 1em;
+    background-color: rgba(201, 204, 206, 0.5) ;
     color: black;
     text-align: center;
 }
@@ -26,6 +26,7 @@ aside {
 aside img {
     width: 200px;
     height: 0 auto;
+    border: 3px solid rgba(13, 66, 83, 0.2);
 }
 
 h1{
@@ -41,8 +42,8 @@ main img {
 }
 
 p {
-    padding: 0;
-    text-align: justify;
+    padding: 20px;
+
 }
 
 footer {
