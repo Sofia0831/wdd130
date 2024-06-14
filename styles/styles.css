@@ -14,7 +14,7 @@ nav a {
 }
 
 aside {
-    width: 0 auto;
+    width: 0, auto;
     margin-top: 30px ;
     border: 1px solid rgb(220, 220, 220, 0.2);
     padding: 20px;
@@ -25,7 +25,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: 0 auto;
+    height: 0, auto;
 }
 
 h1{
