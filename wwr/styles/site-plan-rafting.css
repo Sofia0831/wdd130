@@ -15,20 +15,17 @@ header h1 {
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
+    padding: 40px;
     margin: 0 auto;
     background-color: #fff;
 
 }
 
-.container {
-    text-align: center;
-}
 
 :root {
     --primary-color: #0a3246;
     --secondary-color: #FB8500;
-    --accent1-color: #b8daea;
+    --accent1-color: #8ECAE6;
     --accent2-color: #FFB703;
 
     --heading-font: 'Bebas Neue', sans-serif;
@@ -68,7 +65,7 @@ body {
 }
 
 .colors .accent1 {
-    background-color: #b8daea;
+    background-color: #8ECAE6;
 }
 
 .colors .accent2 {
@@ -83,9 +80,14 @@ main h3 {
     font-size: xx-large;
 }
 
+main h4 {
+    font-size: large;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+
 }
 
 header {
@@ -95,6 +97,12 @@ header {
 
 p {
     padding: 25px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
 }
 
 nav {
@@ -119,3 +127,10 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+.center-heading {
+    text-align: center;
+}
+
+.center-footer {
+    text-align: center;
+}
