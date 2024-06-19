@@ -33,7 +33,7 @@ body {
 
     --nav-background-color: #dae3e7;
     --nav-link-color: #0a3246;
-    --nav-hover-link-color:#0a3246;
+    --nav-hover-link-color:#ffffff;
     --nav-hover-background-color:#FFB703;
     
 }
@@ -81,7 +81,7 @@ main h3 {
 }
 
 main h4 {
-    font-size: large;
+    font-size: x-large;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -133,4 +133,9 @@ nav a:hover {
 
 .center-footer {
     text-align: center;
+}
+
+.colored-callout {
+    background-color: rgb(231, 133, 0)
+
 }
