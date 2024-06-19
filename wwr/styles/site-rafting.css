@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --primary-color: #219EBC;
-    --secondary-color: #FFB703;
-    --accent1-color: #023047;
-    --accent2-color: #FB8500;
+    --primary-color: #FB8500;
+    --secondary-color: #023047;
+    --accent1-color: #8ecfed;
+    --accent2-color: #FFB703;
 
     --heading-font: 'Bebas Neue', sans-serif;
     --paragraph-font: 'Arial', sans-serif;
