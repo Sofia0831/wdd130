@@ -26,15 +26,15 @@ body {
     --primary-color: #0a3246;
     --secondary-color: #FB8500;
     --accent1-color: #8ECAE6;
-    --accent2-color: #FFB703;
+    --accent2-color: #fdb500;
 
     --heading-font: 'Bebas Neue', sans-serif;
     --paragraph-font: 'Arial', sans-serif;
 
-    --nav-background-color: #dae3e7;
+    --nav-background-color: #fdb500;
     --nav-link-color: #0a3246;
     --nav-hover-link-color:#ffffff;
-    --nav-hover-background-color:#FFB703;
+    --nav-hover-background-color:#FB8500;
     
 }
 
@@ -136,6 +136,6 @@ nav a:hover {
 }
 
 .colored-callout {
-    background-color: rgb(231, 133, 0)
+    background-color:rgb(253, 181, 0, 0.2) 
 
 }
