@@ -7,6 +7,9 @@ body {
 }
 
 :root {
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+
     --primary-color: #0a3246;
     --secondary-color: #FB8500;
     --accent1-color: #88c9e8;
@@ -20,6 +23,50 @@ body {
     --nav-hover-link-color:#0a3246;
     --nav-hover-background-color:#FFB703;
     
+}
+
+.colors {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.colors th, .colors td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.colors th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.colors tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.colors td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.colors .primary {
+    background-color: #0a3246;
+    color: #fff;
+}
+
+.colors .secondary {
+    background-color: #FB8500;
+}
+
+.colors .accent1 {
+    background-color: #88c9e8;
+}
+
+.colors .accent2 {
+    background-color: #FFB703;
 }
 
 h1, h2, h3, h4, h5, h6 {
