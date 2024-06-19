@@ -1,18 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+html{
+    background-color: #dae3e7;
+}
+
+header{
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+.container {
+    text-align: center;
 }
 
 :root {
-    --heading-font: 'Bebas Neue', sans-serif;
-    --paragraph-font: 'Arial', sans-serif;
-
     --primary-color: #0a3246;
     --secondary-color: #FB8500;
-    --accent1-color: #88c9e8;
+    --accent1-color: #b8daea;
     --accent2-color: #FFB703;
 
     --heading-font: 'Bebas Neue', sans-serif;
@@ -32,24 +48,14 @@ body {
 }
 
 .colors th, .colors td {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
 }
 
 .colors th {
     background-color: #f2f2f2;
     font-weight: bold;
-}
-
-.colors tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.colors td {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    color: #333;
 }
 
 .colors .primary {
@@ -62,15 +68,23 @@ body {
 }
 
 .colors .accent1 {
-    background-color: #88c9e8;
+    background-color: #b8daea;
 }
 
 .colors .accent2 {
     background-color: #FFB703;
 }
 
+main h2 {
+    font-size: 40px;
+}
+
+main h3 {
+    font-size: xx-large;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--paragraph-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -87,6 +101,7 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    font-family: var(--heading-font);
 }
 
 nav a {
@@ -103,3 +118,4 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
