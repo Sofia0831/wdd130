@@ -15,10 +15,10 @@ body {
     --heading-font: 'Bebas Neue', sans-serif;
     --paragraph-font: 'Arial', sans-serif;
 
-    --nav-background-color: ;
-    --nav-link-color: ;
-    --nav-hover-link-color: ;
-    --nav-hover-background-color: ;
+    --nav-background-color: #dae3e7;
+    --nav-link-color: #0a3246;
+    --nav-hover-link-color:#0a3246;
+    --nav-hover-background-color:#FFB703;
     
 }
 
