@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 5px;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -34,8 +34,7 @@ aside h2 {
     position: absolute;
     font-size: small;
     top: 40px;
-    left: 84px;
-    
+    left: 84px;    
 
 }
 
