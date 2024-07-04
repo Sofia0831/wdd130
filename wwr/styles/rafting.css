@@ -153,16 +153,47 @@ nav a:hover {
 
 section {
     position: relative;
-    top: 430px;
+    top: 480px;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+
+}
+
+.sec1 img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+.sec2 img {
+    top: 70px;
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+
 }
 
 section h2 {
     font-size: 30px;
+    text-align: center;
 }
+
 
 footer {
     position: relative;
-    top: 420px;
+    top: 470px;
 }
 
 footer nav img {
