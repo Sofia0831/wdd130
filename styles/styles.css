@@ -4,19 +4,40 @@
     box-sizing: border-box;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 main {
     max-width: 840px;
+    grid-column: 2/3;
 }
 
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
+    display: block;
     color: white;
     display: block;
     padding: 5px;
+    text-decoration: none;   
+}
+
+nav a:hover {
+    color: rgb(255, 174, 0);
 }
 
 aside {
@@ -28,6 +49,8 @@ aside {
     color: black;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -50,6 +73,9 @@ aside img {
 h1{
     margin-left: 10px;
     color: steelblue;
+    border-bottom: 1px solid steelblue;
+    padding: 7px;
+
 }
 
 main img {
@@ -61,16 +87,20 @@ main img {
     float: right;
     margin-bottom: 20px;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 p {
     padding: 10px;
-    text-align: justify;
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid;
+    text-align: center;
+}
+
+footer p {
     text-align: center;
 }
 
