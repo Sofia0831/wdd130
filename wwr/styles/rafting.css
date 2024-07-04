@@ -154,21 +154,20 @@ nav a:hover {
 section {
     position: relative;
     top: 480px;
-    border: 1px solid var(--primary-color);
     padding: 1rem;
 
 }
 
 .history img {
     display: block;
-    width: 200px;
+    width: 800px;
     height: auto;
     margin: 0 auto;
     padding: 8px;
 }
 
 .history p {
-    text-align: left;
+    text-align: center;
     line-height: 1.5rem;
 }
 
@@ -177,14 +176,14 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
-    gap: 20px;
+    gap: 2.5px;
     padding: 20px;
     
 }
 
 .adventure img {
     top: 70px;
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-bottom: 20px;
     grid-row: 2/3;
@@ -194,15 +193,31 @@ section {
 section h2 {
     font-size: 30px;
     text-align: center;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 
 footer {
     position: relative;
     top: 470px;
+    border: 1px solid;
+    background-color: var(--nav-background-color);
+}
+
+footer p {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+footer nav {
+    justify-content: center;
 }
 
 footer nav img {
     max-width: 30px;
     height: auto;
+    height: 20px
   }
