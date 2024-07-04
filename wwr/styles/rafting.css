@@ -40,13 +40,13 @@ header {
     grid-template-columns: 1fr 2fr;
     background-color: var(--nav-background-color);
     max-width: 1000px;
+    border: 2px solid var(--primary-color);
 }
 
 header img {
     margin-left: 180px;
     width: 100px;
     height:auto;
-    background-color: var(--nav-hover-link-color);
 }
 
 header nav {
