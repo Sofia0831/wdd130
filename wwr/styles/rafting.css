@@ -159,8 +159,20 @@ section {
 
 }
 
+.history img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 8px;
+}
 
-.sec2 {
+.history p {
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.adventure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -170,11 +182,12 @@ section {
     
 }
 
-.sec2 img {
+.adventure img {
     top: 70px;
     width: 100px;
     height: auto;
     margin-bottom: 20px;
+    grid-row: 2/3;
 
 }
 
