@@ -32,6 +32,43 @@ body {
 
 }
 
+header {
+    margin: 1rem auto;
+    display: grid;
+    background-color: var(--nav-background-color);
+    grid-template-columns: 1fr 2fr;
+}
+
+header img {
+    margin: 5px 5px 5px 80px;
+    width: 100px;
+    height:auto;
+    background-color: var(--nav-hover-link-color);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+    font-family: var(--heading-font);
+    justify-content: space-between;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    text-align:center;
+    padding: 1rem;
+}
+
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
