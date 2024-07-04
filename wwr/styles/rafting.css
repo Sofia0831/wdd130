@@ -35,12 +35,15 @@ body {
 header {
     margin: 1rem auto;
     display: grid;
-    background-color: var(--nav-background-color);
+    align-items: center;
+    background-color: var(--nav-hover-link-color);
     grid-template-columns: 1fr 2fr;
+    background-color: var(--nav-background-color);
+    max-width: 1000px;
 }
 
 header img {
-    margin: 5px 5px 5px 80px;
+    margin-left: 180px;
     width: 100px;
     height:auto;
     background-color: var(--nav-hover-link-color);
@@ -54,11 +57,10 @@ header nav {
 }
 
 nav {
-    background-color: var(--nav-background-color);
-    font-size: 2rem;
+    font-size: 20px;
     display: flex;
     font-family: var(--heading-font);
-    justify-content: space-between;
+    
 }
 nav a {
     display: block;
