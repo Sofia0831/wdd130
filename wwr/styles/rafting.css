@@ -159,13 +159,6 @@ section {
 
 }
 
-.sec1 img {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding: 8px;
-}
 
 .sec2 {
     display: flex;
