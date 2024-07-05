@@ -149,15 +149,17 @@ nav a:hover {
     height: auto;
     float: right;
     margin-left: 473px;
-    bottom: 10px;
+    bottom: 13px;
     
 }
 
 .hero article p {
     margin-right: 180px;
     margin-top: 0;
-    padding: 7px;
+    padding: 4px;
     color: white;
+    text-align: left;
+    font-size: 15px;
 }
 
 section {
