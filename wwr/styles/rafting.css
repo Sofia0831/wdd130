@@ -125,7 +125,7 @@ nav a:hover {
 .hero img {
     position: absolute;
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -156,6 +156,8 @@ nav a:hover {
     padding: 7px;
     color: white;
 }
+
+
 
 section {
     position: relative;
