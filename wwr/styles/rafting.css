@@ -88,7 +88,7 @@ h1 {
 p {
     padding: 10px;
     text-align: justify;
-    color: black;
+    color: var(--primary-color);
     font-family: var(--paragraph-font);
 }
 
