@@ -203,6 +203,20 @@ section h2 {
     margin-bottom: 20px;
 }
 
+figure {
+    border: thin var(--accent1-color) solid;
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+  }
+   
+  figcaption {
+    background-color: var(--secondary-color);
+    color: #fff;
+    font: italic smaller sans-serif;
+    text-align: center;
+  }
+
 
 footer {
     display: flex;
