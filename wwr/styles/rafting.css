@@ -40,7 +40,7 @@ header {
     grid-template-columns: 1fr 2fr;
     background-color: var(--nav-background-color);
     max-width: 1000px;
-    border: 2px solid var(--primary-color);
+    border: 1.5px solid var(--primary-color);
 }
 
 header img {
@@ -123,6 +123,7 @@ nav a:hover {
 }
 
 .hero img {
+    position: absolute;
     display: block;
     width: 100%;
     height: auto;
@@ -157,9 +158,8 @@ nav a:hover {
 
 section {
     position: relative;
-    top: 480px;
+    top: 400px;
     padding: 1rem;
-
 }
 
 .history img {
@@ -207,7 +207,7 @@ section h2 {
 footer {
     display: flex;
     position: relative;
-    top: 470px;
+    top: 390px;
     border: 1px solid var(--primary-color);
     background-color: var(--nav-background-color);
     align-content: center;
