@@ -102,6 +102,8 @@ nav a:hover {
 }
 
 .hero {
+    display: flex;
+    justify-content: center;
     border: 1px;
     position: relative;
     width: 100%;
@@ -135,7 +137,6 @@ nav a:hover {
     width: 650px;
     height: auto;
     margin-top: 150px;
-    margin-left: 130px; 
     padding: 1em;
     background-color: rgb(251, 133, 0, 0.8);
 
