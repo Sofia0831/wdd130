@@ -215,8 +215,8 @@ figure {
   }
    
   figcaption {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: rgb(251, 133, 0, 0.8);
+    color: white;
     font: italic smaller sans-serif;
     text-align: center;
   }
