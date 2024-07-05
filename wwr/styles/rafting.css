@@ -86,7 +86,7 @@ h1 {
 }
 
 p {
-    padding: 25px;
+    padding: 10px;
     text-align: justify;
     color: black;
     font-family: var(--paragraph-font);
@@ -127,11 +127,11 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
-    position: absolute;
 }
 
 .hero article {
     position: absolute;
+    max-width: 100%;
     margin-top: 150px;
     margin-left: 130px;
     width: 650px;
@@ -141,7 +141,8 @@ nav a:hover {
 }
 
 .hero article img {
-    max-width: 23%;
+    max-width: 100%;
+    width: 150px;
     height: auto;
     float: right;
     margin-left: 473px;
@@ -164,7 +165,7 @@ section {
 
 .history img {
     display: block;
-    width: 800px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 8px;
@@ -189,7 +190,7 @@ section {
     top: 70px;
     width: 150px;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     grid-row: 2/3;
 
 }
@@ -221,7 +222,7 @@ figure {
 footer {
     display: flex;
     position: relative;
-    top: 390px;
+    top: 420px;
     border: 1px solid var(--primary-color);
     background-color: var(--nav-background-color);
     align-content: center;
