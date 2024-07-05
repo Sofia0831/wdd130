@@ -132,10 +132,10 @@ nav a:hover {
 .hero article {
     position: absolute;
     max-width: 100%;
-    margin-top: 150px;
-    margin-left: 130px;
     width: 650px;
     height: auto;
+    margin-top: 150px;
+    margin-left: 130px; 
     padding: 1em;
     background-color: rgb(251, 133, 0, 0.8);
 
