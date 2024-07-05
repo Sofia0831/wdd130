@@ -216,7 +216,7 @@ figure {
    
   figcaption {
     background-color: var(--secondary-color);
-    color: #fff;
+    color: var(--primary-color);
     font: italic smaller sans-serif;
     text-align: center;
   }
