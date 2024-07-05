@@ -25,15 +25,16 @@
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 40px;
     margin: 0 auto;
+    padding: 40px;
     background-color: #fff;
     justify-content: center;
+    align-content: center;
 
 }
 
 header {
-    margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
     align-items: center;
     background-color: var(--nav-hover-link-color);
