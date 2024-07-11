@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    font-size: 1em;
+    color: rgb(57, 57, 57);
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+
+}
+
+h1 {
+    margin: 1rem;
+    color: navy;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    width: 450px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #e3e3e3;
+
+}
+
+fieldset {
+    display: grid;
+    gap: 0.1px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+legend {
+    color: navy;
+    padding: 0.3rem;
+    font-size: 1.1em;
+
+}
+
+label, input, button, select, textarea {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+
+
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+input[type='checkbox'] {
+    width: 15px;
+    height: 15px;
+    vertical-align: bottom;
+}
+
+button {
+    background-color: navy;
+    color: #fff;
+    padding: 1em;
+    margin: 1rem;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color:rgb(25, 108, 108);
+}
