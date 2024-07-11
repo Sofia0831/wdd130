@@ -14,25 +14,31 @@
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="fullname">Full Name:</label>
-                    <input type="text" id="fullname" name="fullname">
-                    <label for="useremail">Email:</label>
-                    <input type="email" id="useremail" name="useremail">
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
                 </fieldset>
 
                 <fieldset>
                     <legend>Questions</legend>
-                    <label for="fave_browser">What is your favorite browser?</label>
-                    <select id="fave_browser" name="fave_browser">
-                        <option value="chrome">Chrome</option>
-                        <option value="edge">Microsoft Edge</option>
-                        <option value="opera">Opera</option>
-                    </select>
-                    <br>
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" id="pet" name="pet">
-
-                    <label for="feedback">List the places you have lived:</label>
+                    <div class="form-item column1">
+                        <label for="fave_browser">What is your favorite browser?</label>
+                        <select id="fave_browser" name="fave_browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="edge">Microsoft Edge</option>
+                            <option value="opera">Opera</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    <label class="centerlabel" for="feedback">List the places you have lived:</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Cebu City, Naval Biliran, Baybay City"></textarea>
                 </fieldset>
 
