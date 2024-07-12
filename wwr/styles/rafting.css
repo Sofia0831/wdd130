@@ -34,6 +34,9 @@ body {
     background-color: #fff;
     justify-content: center;
     align-content: center;
+    min-height: 100vh;
+    font-family: var(--paragraph-font);
+ 
 
 }
 
@@ -469,19 +472,29 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
-footer {
-    top: 400px;
+/* footer {
     display: flex;
     position: relative;
-    align-items: center;
     justify-content: space-between;
     border: 1px solid var(--primary-color);
     background-color: var(--nav-background-color);
     padding: 0px;
     overflow: auto;
 
-}
+} */
 
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: auto;
+    background-color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+    width: 885px;
+    padding: 0;
+    border: 1px solid var(--primary-color);
+    overflow: auto;
+}
 
 footer p {
     text-align: center;
