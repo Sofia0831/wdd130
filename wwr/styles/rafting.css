@@ -42,6 +42,7 @@ header {
     background-color: var(--nav-background-color);
     max-width: 1000px;
     border: 1.5px solid var(--primary-color);
+    overflow: auto;
 }
 
 header img {
@@ -76,6 +77,7 @@ nav a {
 }
 
 
+
 h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -85,6 +87,16 @@ h1, h2, h3 {
 h1 {
     font-size: 60px;
 }
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
 
 p {
     padding: 10px;
@@ -208,37 +220,269 @@ section h2 {
     width: 100%;
     margin-bottom: 20px;
 }
+section {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 0;
+    padding: 0;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+
+} 
+.left-column {
+    width: 40%;
+}
+  
+  .right-column {
+    width: 70%;
+}
+
+.left-column h1, h3 {
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+.left-column h1 {
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+.left-column p {
+    margin-top: 20px;
+
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 1em;
+    padding-left: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(10, 50, 70, 0.7);
+}
+
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+section p {
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.left-column img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.team h2 {
+    padding-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 70px;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, rgba(24, 90, 123, 0.1) 50%, transparent 50%);
+}
+
+.team p {
+    color: rgb(10, 50, 70, 0.7);
+    padding-bottom: 30px;
+}
+
+.team img {
+    display: flex;
+    width: 150px;
+    height: 110px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
 
 figure {
-    border: thin var(--accent1-color) solid;
     display: flex;
     flex-flow: column;
     padding: 3px;
   }
    
   figcaption {
-    background-color: var(--primary-color);
-    color: white;
+    color: var(--primary-color);
     font: italic smaller sans-serif;
     text-align: center;
   }
 
+.message-us {
+    display: block;
+    background-color: rgba(24, 90, 123, 0.1);
+    padding: 2rem;
+    max-height: 650px;
+    overflow-y: auto;
+}  
+
+.transparent {
+    color: rgb(10, 50, 70, 0.7);
+    padding: 1rem;
+}
+
+form {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+form h2 {
+    padding: 1rem;
+}
+form p {
+    text-align: left;
+    margin-left: 0;
+    padding: 0;
+    padding-top: 5px;
+    color: black;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+  
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 0 auto;
+}
+
+.form-group input {
+    width: 210px;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.message-us h2 {
+    padding-top: 20px;
+}
+  
+label {
+    margin-bottom: 5px; 
+
+}
+  
+input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.divradio {
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+.divradio p {
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.divradio input {
+    margin-top: 13px;
+}
+
+.divradio label {
+    font-size: 13px;
+}
+
+.message {
+    margin-top: 0;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+.message label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 480px;
+
+}
+
+.divcheck {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.divcheck label {
+    font-size: small;
+    color: rgb(10, 50, 70, 0.7);
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: white;
+    width: 50%;
+    border-top: 3px solid rgb(209, 229, 209);
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
 
 footer {
     display: flex;
     position: relative;
-    top: 420px;
     border: 1px solid var(--primary-color);
     background-color: var(--nav-background-color);
     align-content: center;
     justify-content: center;
+    padding: 0.5rem;
+    overflow: auto;
 }
 
 footer p {
     text-align: center;
-    padding: 0.5rem;
     font-family: var(--heading-font);
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 0;
     margin-left: 240px;
 
