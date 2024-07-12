@@ -178,9 +178,6 @@ section {
     padding: 1rem;
 }
 
-.history {
-    margin-top: 100px;
-}
 
 .history img {
     display: block;
@@ -196,7 +193,6 @@ section {
 }
 
 .adventure {
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
