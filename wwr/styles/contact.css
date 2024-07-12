@@ -206,7 +206,7 @@ figure {
     display: block;
     background-color: rgba(24, 90, 123, 0.1);
     padding: 2rem;
-    max-height: 610px;
+    max-height: 650px;
     overflow-y: auto;
 }  
 
@@ -324,6 +324,20 @@ input[type="checkbox"] {
     width: 10px;
     height: 10px;
 
+}
+
+button {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: white;
+    width: 50%;
+    border-top: 3px solid rgb(209, 229, 209);
+}
+
+button:hover {
+    background-color: var(--accent1-color);
 }
 
 footer {
