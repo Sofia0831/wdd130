@@ -474,7 +474,7 @@ button:hover {
 }
 
 footer {
-    margin-top: auto;
+    top: 400px;
     display: flex;
     position: relative;
     align-items: center;
