@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --primary-color: #0a3246;
+    --secondary-color: #FB8500;
+    --accent1-color: #8fcae6;
+    --accent2-color: #fdb500;
+
+    --heading-font: 'Bebas Neue', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #fdb500;
+    --nav-link-color: #0a3246;
+    --nav-hover-link-color:#ffffff;
+    --nav-hover-background-color:#fb8500;
+}
+
+*{
+    max-width: 1400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+
+}
+
+header {
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    background-color: var(--nav-hover-link-color);
+    grid-template-columns: 1fr 2fr;
+    background-color: var(--nav-background-color);
+    max-width: 1000px;
+    border: 1.5px solid var(--primary-color);
+}
+
+header img {
+    margin-left: 180px;
+    width: 100px;
+    height:auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+header nav a {
+    border: 1px solid var(--primary-color);
+}
+
+nav {
+    font-size: 20px;
+    display: flex;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    text-align:center;
+    padding: 1rem;
+}
+
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+
+section {
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 0;
+    padding: 0;
+    height: 300px;
+
+
+} 
+.left-column {
+    width: 40%;
+}
+  
+  .right-column {
+    width: 70%;
+}
+
+.left-column h2, h3 {
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+.left-column h2 {
+    margin-top: 50px;
+}
+
+.left-column p {
+    margin-top: 20px;
+
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 1em;
+    padding-left: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(10, 50, 70, 0.7);
+}
+
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+section p {
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.left-column img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 151px;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 30px;
+    background: linear-gradient(to bottom, rgba(24, 90, 123, 0.1) 50%, transparent 50%);
+}
+
+.team p {
+    color: rgb(10, 50, 70, 0.7);
+    padding-bottom: 1rem;
+}
+
+.team img {
+    display: flex;
+    width: 150px;
+    height: 110px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+  }
+   
+  figcaption {
+    color: var(--primary-color);
+    font: italic smaller sans-serif;
+    text-align: center;
+  }
+
+.message-us {
+    background-color: rgba(24, 90, 123, 0.1);
+    padding: 2rem;
+}  
+
+.transparent {
+    color: rgb(10, 50, 70, 0.7);
+    padding: 1rem;
+}
+
+form {
+    display: block;
+    width: 560px;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+form h2 {
+    padding: 1rem;
+}
+form p {
+    text-align: left;
+    margin-left: 0;
+    padding: 0;
+    padding-top: 30px;
+    color: black;
+}
+
+
+
+
+
+footer {
+    display: flex;
+    position: relative;
+    border: 1px solid var(--primary-color);
+    background-color: var(--nav-background-color);
+    align-content: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+footer p {
+    text-align: center;
+    font-family: var(--heading-font);
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 240px;
+
+}
+
+footer nav {
+    margin-top: 0;
+    margin-left: 100px;
+}
+
+footer nav img {
+    max-width: 20px;
+    height: auto;
+  }
