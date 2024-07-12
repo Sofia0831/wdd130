@@ -114,14 +114,15 @@ section {
     width: 70%;
 }
 
-.left-column h2, h3 {
+.left-column h1, h3 {
     text-align: left;
     margin-left: 5px;
 
 }
 
-.left-column h2 {
+.left-column h1 {
     margin-top: 50px;
+    font-size: xx-large;
 }
 
 .left-column p {
