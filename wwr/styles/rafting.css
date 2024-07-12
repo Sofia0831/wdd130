@@ -478,26 +478,24 @@ footer {
     margin-top: auto;
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: space-between;
     border: 1px solid var(--primary-color);
     background-color: var(--nav-background-color);
-    padding: 0.5rem;
+    padding: 0px;
     overflow: auto;
 
 }
 
+
 footer p {
     text-align: center;
     font-family: var(--heading-font);
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 240px;
-
+    margin: 0 auto;
+    margin-left: 280px;
+    padding: 0.8rem;
 }
 
-footer nav {
-    margin-top: 0;
-    margin-left: 100px;
-}
 
 footer nav img {
     max-width: 20px;
