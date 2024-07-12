@@ -88,15 +88,9 @@ h1 {
     font-size: 60px;
 }
 
-nav a:link {
-    text-decoration: none;
+section {
+    padding: 0;
 }
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
 
 p {
     padding: 10px;
@@ -220,9 +214,49 @@ section h2 {
     width: 100%;
     margin-bottom: 20px;
 }
-section {
-    padding: 0;
+
+section p {
+    text-align: center;
+    width: 100%;
+
+
 }
+
+.left-column img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.team h2 {
+    padding-bottom: 10px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 70px;
+    padding-top: 40px;
+    background: linear-gradient(to bottom, rgba(24, 90, 123, 0.1) 50%, transparent 50%);
+    top: 0;
+}
+
+.team p {
+    color: rgb(10, 50, 70, 0.7);
+    padding-bottom: 30px;
+}
+
+.team img {
+    display: flex;
+    width: 150px;
+    height: 110px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
 
 .container {
     display: flex;
@@ -231,6 +265,7 @@ section {
     max-width: 900px;
     margin: 0 auto;
     overflow: auto;
+    top: 0;
 
 } 
 .left-column {
@@ -268,67 +303,18 @@ section {
     color: rgb(10, 50, 70, 0.7);
 }
 
-
-section h2 {
-    font-size: 30px;
-    text-align: center;
-    top: 70px;
-    left: 0;
-    width: 100%;
-}
-
-section p {
-    text-align: center;
-    width: 100%;
-
-
-}
-
-.left-column img {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-
-}
-
-.team h2 {
-    padding-bottom: 10px;
-}
-
-.team {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    padding: 70px;
-    padding-top: 40px;
-    background: linear-gradient(to bottom, rgba(24, 90, 123, 0.1) 50%, transparent 50%);
-}
-
-.team p {
-    color: rgb(10, 50, 70, 0.7);
-    padding-bottom: 30px;
-}
-
-.team img {
-    display: flex;
-    width: 150px;
-    height: 110px;
-    border-radius: 50px;
-    margin-bottom: 5px;
-}
-
 figure {
     display: flex;
     flex-flow: column;
     padding: 3px;
-  }
-   
-  figcaption {
-    color: var(--primary-color);
+}
+ 
+figcaption {
+    background-color: var(--primary-color);
+    color: white;
     font: italic smaller sans-serif;
     text-align: center;
-  }
+}
 
 .message-us {
     display: block;
@@ -336,6 +322,7 @@ figure {
     padding: 2rem;
     max-height: 650px;
     overflow-y: auto;
+    top: 0;
 }  
 
 .transparent {
@@ -482,7 +469,7 @@ footer {
 footer p {
     text-align: center;
     font-family: var(--heading-font);
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0;
     margin-left: 240px;
 
