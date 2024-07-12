@@ -197,7 +197,7 @@ section {
 }
 
 .adventure {
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -423,6 +423,7 @@ input {
     margin-top: 0;
     margin-left: 13px;
     margin-bottom: 0;
+    
 }
 
 .message label {
