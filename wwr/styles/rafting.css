@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     font-family: var(--paragraph-font);
     max-width: 960px;
     margin: 0 auto;
@@ -483,17 +484,14 @@ button:hover {
 
 } */
 
-footer{
+
+footer {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: auto;
-    background-color: var(--nav-hover-link-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     background-color: var(--nav-background-color);
-    width: 885px;
-    padding: 0;
     border: 1px solid var(--primary-color);
-    overflow: auto;
 }
 
 footer p {
