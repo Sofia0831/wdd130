@@ -27,7 +27,6 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
     font-family: var(--paragraph-font);
     max-width: 960px;
     margin: 0 auto;
@@ -176,12 +175,9 @@ nav a:hover {
     font-size: 15px;
 }
 
-section {
-    position: relative;
-    top: 400px;
-    padding: 1rem;
+.history{
+    padding-top: 420px;
 }
-
 
 .history img {
     display: block;
@@ -473,18 +469,6 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
-/* footer {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    border: 1px solid var(--primary-color);
-    background-color: var(--nav-background-color);
-    padding: 0px;
-    overflow: auto;
-
-} */
-
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -492,6 +476,11 @@ footer {
     padding: 10px;
     background-color: var(--nav-background-color);
     border: 1px solid var(--primary-color);
+    border-top: 1.5px solid var(--primary-color); 
+    border-bottom: 1.5px solid var(--primary-color);   
+    bottom: 0; 
+    left: 0;
+    width: 100%;
 }
 
 footer p {
@@ -499,7 +488,7 @@ footer p {
     font-family: var(--heading-font);
     margin: 0 auto;
     margin-left: 280px;
-    padding: 0.8rem;
+    padding: 0.2rem;
 }
 
 
