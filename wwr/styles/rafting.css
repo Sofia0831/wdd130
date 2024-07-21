@@ -469,6 +469,121 @@ button:hover {
     background-color: var(--accent1-color);
 }
 
+.coverimg {
+    position: relative;
+    text-align: center;
+}
+.coverimg img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.coverimg h1 {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    top: 90px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+
+    text-shadow: 
+    -1px -1px 0px var(--primary-color), 
+     1px -1px 0px var(--primary-color), 
+     1px  1px 0px var(--primary-color),
+    -1px  1px 0px var(--primary-color); 
+    color: var(--nav-hover-link-color)
+}
+
+.coverimg h2 {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    top: 160px;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+
+    text-shadow: 
+    -1px -1px 0px var(--primary-color), 
+     1px -1px 0px var(--primary-color), 
+     1px  1px 0px var(--primary-color),
+    -1px  1px 0px var(--primary-color); 
+}
+
+.coverimg button {
+    position: absolute;
+    top: 270px;
+    padding: 10px; 
+    text-align: center;
+    width: 100px;    
+    left: 395px;
+}
+
+.featured {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured h1 {
+    padding-bottom: 10px;
+}
+
+.featured h3 {
+    text-align: center;
+    padding: 25px 30px 2px 30px;
+    font-size: 30px;
+}
+
+.featured {
+    padding: 20px 0;
+}
+
+.article-trip {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-evenly; 
+}
+
+.poptrip {
+  width: 30%; 
+  margin: 10px; 
+  text-align: center; 
+  border: solid var(--nav-link-color);
+}
+  
+.poptrip img {
+  width: 100%; 
+}
+
+.poptrip p {
+  margin-bottom: 10px; 
+  text-align: left;
+  font-size: 14px;
+}
+
+.poptrip button {
+    padding: 10px; 
+    text-align: center;
+    width: 100px;  
+    text-decoration:none;  
+    margin-bottom: 4px;
+
+}
+
+.poptrip a {
+    text-decoration: none;
+}
+
+.poptrip ul {
+    margin-bottom: 10px; 
+    text-align: left;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-top: 2px;
+
+}
 
 footer {
     display: flex;
