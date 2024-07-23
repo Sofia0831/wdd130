@@ -764,7 +764,7 @@ span {
 }
 
 .trip-content img {
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 20px;
 }
@@ -777,8 +777,8 @@ span {
     background-color:#f4f8fd;;
 }
 
-.trip-content a {
-    text-decoration: none;
+.trip-content a:hover {
+    color: var(--secondary-color);
 }
 
 .raft-info {
