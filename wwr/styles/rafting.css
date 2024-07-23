@@ -477,6 +477,7 @@ button:hover {
     display: block;
     max-width: 100%;
     height: auto;
+    opacity: 0.9;
 }
 
 .coverimg h1 {
@@ -541,50 +542,123 @@ button:hover {
 }
 
 .article-trip {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: space-evenly; 
-}
-
-.poptrip {
-  width: 30%; 
-  margin: 10px; 
-  text-align: center; 
-  border: solid var(--nav-link-color);
-}
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+  }
   
-.poptrip img {
-  width: 100%; 
-}
-
-.poptrip p {
-  margin-bottom: 10px; 
-  text-align: left;
-  font-size: 14px;
-}
-
-.poptrip button {
+  .poptrip {
+    display: flex;
+    flex-direction: column;
+    width: 30%; 
+    margin: 10px; 
+    text-align: center; 
+    border: 1px solid var(--nav-link-color);
+    border-radius: 10px;
+    background-color: #f4f4f4; /* Optional: for better visibility */
+  }
+  
+  .poptrip img {
+    width: 100%; 
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .poptrip > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .poptrip p {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .poptrip button {
+    margin-top: 10px; /* Add some space from the content above */
     padding: 10px; 
     text-align: center;
     width: 100px;  
-    text-decoration:none;  
-    margin-bottom: 4px;
-
-}
-
-.poptrip a {
     text-decoration: none;
-}
-
-.poptrip ul {
+  }
+  
+  .poptrip a {
+    text-decoration: none;
+  }
+  
+  .poptrip ul {
     margin-bottom: 10px; 
     text-align: left;
     font-size: 13px;
     padding-left: 30px;
     padding-top: 2px;
+  }
+  
+  .poptrip li {
+    padding-right: 10px;
+  }
+
+.trips {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.trips h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trips table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trips th,
+.trips td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.trips th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.trips img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.trips p {
+  margin: 0;
+  text-align: left;
 
 }
 
+.trips a {
+  display: block;
+  padding: 8px 15px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-decoration: none;
+  width: 100px;
+  font-size: small;
+}
+
+.trips a:hover {
+  background-color: var(--accent2-color);
+}
 footer {
     display: flex;
     justify-content: space-between;
