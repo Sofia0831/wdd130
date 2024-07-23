@@ -513,13 +513,24 @@ button:hover {
     -1px  1px 0px var(--primary-color); 
 }
 
-.coverimg button {
+.coverimg a {
     position: absolute;
     top: 270px;
     padding: 10px; 
     text-align: center;
-    width: 100px;    
+    width: 120px;    
     left: 395px;
+    display: inline-block; 
+    padding: 10px; 
+    text-align: center; 
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: white;
+    border: 0.5px solid black
+}
+
+.coverimg a:hover {
+    background-color: var(--accent1-color);
 }
 
 .featured {
@@ -545,9 +556,9 @@ button:hover {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; 
-  }
-  
-  .poptrip {
+}
+
+.poptrip {
     display: flex;
     flex-direction: column;
     width: 30%; 
@@ -556,52 +567,61 @@ button:hover {
     border: 1px solid var(--nav-link-color);
     border-radius: 10px;
     background-color: #f4f4f4; /* Optional: for better visibility */
-  }
-  
-  .poptrip img {
+}
+
+.poptrip img {
     width: 100%; 
     height: auto;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  
-  .poptrip > div {
+}
+
+.poptrip > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
     padding: 10px;
-  }
-  
-  .poptrip p {
+}
+
+.poptrip p {
     text-align: left;
     font-size: 14px;
     padding: 10px;
-  }
-  
-  .poptrip button {
-    margin-top: 10px; /* Add some space from the content above */
+}
+
+
+.poptrip a {
+    display: inline-block; 
     padding: 10px; 
-    text-align: center;
-    width: 100px;  
+    text-align: center; 
     text-decoration: none;
-  }
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.poptrip a:hover {
+    background-color: var(--accent1-color);
+}
+
+.poptrip ul {
+  margin-bottom: 10px; 
+  text-align: left;
+  font-size: 13px;
+  padding-left: 30px;
+  padding-top: 2px;
+}
   
-  .poptrip a {
-    text-decoration: none;
-  }
-  
-  .poptrip ul {
-    margin-bottom: 10px; 
-    text-align: left;
-    font-size: 13px;
-    padding-left: 30px;
-    padding-top: 2px;
-  }
-  
-  .poptrip li {
-    padding-right: 10px;
-  }
+.poptrip li {
+  padding-right: 10px;
+}
+
+span {
+    font-weight: bold;
+}
 
 .trips {
   max-width: 1000px;
