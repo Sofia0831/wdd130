@@ -679,6 +679,138 @@ span {
 .trips a:hover {
   background-color: var(--accent2-color);
 }
+
+.homebanner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.homebanner img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.homebanner h1{
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    top: 350px;
+    text-align: center;
+    color: var(--nav-hover-link-color);
+    font-size: 50px;
+    left: 0px;
+}
+
+.newsletter-signup {
+    width: 100%; 
+    height: auto;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    overflow: hidden;
+    background-color: #f4f8fd;
+}
+
+.newsletter-signup img {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+}
+
+.homebanner h2 {
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    top: 400px;
+    text-align: center;
+    color: var(--nav-hover-link-color);
+    font-size: 30px;
+    left: 0px;
+}
+
+.newsletter-signup h1 {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.newsletter-signup button {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.newsletter-signup label {
+    padding-top: 10px;
+}
+
+.newsletter-signup input {
+    width: 100%;
+}
+
+.trip-content {
+    width: 100%; 
+    height: auto;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center; 
+    overflow: hidden;
+    background-color: #f4f8fd;
+    
+}
+
+.trip-content img {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
+.trip-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color:#f4f8fd;;
+}
+
+.trip-content a {
+    text-decoration: none;
+}
+
+.raft-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+}
+
+.raft-info article {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd; 
+}
+
+.raft-info h1 {
+  margin-bottom: 10px; 
+  font-size:xx-large;
+}
+
+.raft-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.offer li {
+    margin: 10px;
+}
+
+.raft-info p {
+    text-align: left;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
