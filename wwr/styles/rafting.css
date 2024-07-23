@@ -783,7 +783,7 @@ span {
 .raft-info {
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  grid-gap: 20px; 
+  grid-gap: 1px; 
   background-color: #f4f8fd;
 }
 
@@ -791,6 +791,7 @@ span {
   background-color: white;
   padding: 20px;
   border: 1px solid #ddd; 
+  margin: 25px;
 }
 
 .raft-info h1 {
